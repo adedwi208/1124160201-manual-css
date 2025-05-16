@@ -16,14 +16,14 @@
 }
 
 .positioning-container {
-  position: relative;          /* Menjadi acuan posisi bagi elemen di dalamnya */
+  position: relative;          
   height: 150px;
-  background-color: #e0f7fa;   /* Warna latar untuk membedakan area container */
+  background-color: #e0f7fa;   
   margin-bottom: 20px;
 }
 
 .positioned-box {
-  position: absolute;          /* Diletakkan relatif terhadap elemen induk */
+  position: absolute;          
   top: 20px;
   left: 20px;
   background-color: #00796b;
@@ -45,22 +45,40 @@
 }
 
 .flex-container {
-  display: flex;                 /* Mengaktifkan flexbox layout */
-  gap: 10px;                     /* Jarak antar item */
-  background-color: #f1f1f1;     /* Warna latar kontainer */
+  display: flex;                 
+  gap: 10px;                     
+  background-color: #f1f1f1;     
   padding: 15px;
-  justify-content: space-between; /* Menyebar item secara merata */
+  justify-content: space-between; 
 }
 
 .flex-item {
-  background-color: #90caf9;     /* Warna biru muda */
+  background-color: #90caf9;     
   color: #0d47a1;
   padding: 20px;
-  flex: 1;                       /* Semua item mendapatkan ruang sama rata */
+  flex: 1;                       
   text-align: center;
   font-weight: bold;
   border-radius: 5px;
 }
+
+.grid-container {
+  display: grid;                             
+  grid-template-columns: repeat(3, 1fr);     
+  gap: 10px;                                  
+  background-color: #f9fbe7;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #fff176;                 
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #fbc02d;
+  border-radius: 4px;
+}
+
 
 
 
